@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/default.js" type="text/javascript" defer></script>
+    <script src="vue/vue.min.js" defer></script>  
+    <script src="vue/scroll_events_vue.js" defer></script>  
+    <title>CONTACT | 衛星サイト WEBスキル</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+</head>
+<body class="preload">
+    <header>
+        <div id="button"><a class="menu-trigger"><span></span><span></span><span></span></a><div></div>
+        <div class="main-image">
+            <img src="img/logo.png" alt="">
+        </div>
+    </header>
+    <nav id="responsive_nav">
+        <ul>
+            <li><a href="index.html">必要なスキル</a></li>
+            <li><a href="index.html">WEBコーディング</a></li>
+            <li><a href="index.html">デザインの知識</a></li>
+            <li><a href="index.html">JavaScript</a></li>
+            <li><a href="index.html">CMS構築</a></li>
+            <li><a href="index.html">マネージメント能力</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>お問い合わせ</h1>
+        <section>
+            <div class="contact-from">
+                <div class="from-box">
+                    <span class="item-name">お名前</span>
+                    <div class="text-wrap">
+                      <input type="text" name="" value="">
+                    </div>
+                    <span class="item-name">ふりがな</span>
+                    <div class="text-wrap">
+                      <input type="text" name="" value="">
+                    </div>
+                    <span class="item-name">電話番号</span>
+                    <div class="text-wrap">
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="090-1234-5678">
+                    </div>
+                    <span class="item-name">メールアドレス</span>
+                    <div class="text-wrap">
+                        <input type="email" placeholder="info@sample.com">
+                    </div>
+                </div>
+                <div class="from-box">
+                    <span class="item-name">資料請求しますか？</span>
+                    <div class="radio-wrap">
+                      <label>
+                        <input type="radio" name="radio" value="radiobtn">
+                        <span>はい</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="radio" value="radiobtn">
+                        <span>いいえ</span>
+                      </label>
+                    </div>
+                </div>
+                <div class="from-box">
+                    <span class="item-name">ご希望の仕事</span>
+                    <div class="checkbox-wrap">
+                        <label>
+                          <input type="checkbox" name="" value="checkbox1">
+                          <span>WEBデザイナー</span>
+                        </label>
+                        <label>
+                          <input type="checkbox" name="" value="checkbox2">
+                          <span>WEBディレクター</span>
+                        </label>
+                        <label>
+                          <input type="checkbox" name="" value="checkbox3">
+                          <span>フロントエンジニア</span>
+                        </label>
+                      </div>
+                </div>
+                <div class="from-box">
+                    <span class="item-name">ご年齢</span>
+                    <div class="select-wrap">
+                      <select name="blood">
+                        <option value="select1">20代</option>
+                        <option value="select2">30代</option>
+                        <option value="select3">40代</option>
+                        <option value="select4">50代</option>
+                        <option value="select5">60代</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="from-box">
+                    <span class="item-name">ご感想など</span>
+                    <div class="textarea-wrap">
+                      <textarea name="name" rows="8" cols="80"></textarea>
+                    </div>
+                </div>
+                <div class="submit-wrap">
+                    <a href="thankyou.html"><input type="submit" name="" value="送信"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="scroll">
+        <v-move-to-top><img src="img/arrow.png"></v-move-to-top>
+    </div>
+    <footer>
+        <div class="footer-inner">
+            <ul class="link-list">
+                <li>
+                    <a href="index.html">
+                        <img src="img/link_banner_01.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <img src="img/link_banner_02.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <img src="img/link_banner_03.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <img src="img/link_banner_04.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p class="copy">Copyright © 2020 MISSIONS Inc. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
